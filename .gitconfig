@@ -1,0 +1,15 @@
+[user]
+	name = Michael Sauter
+	email = mail@michaelsauter.net
+[alias]
+	co = checkout
+	ci = commit
+	st = status
+	br = branch
+	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+[core]
+	excludesfile = ~/.gitignore
+[credential]
+	helper = osxkeychain
+[color]
+	ui = true

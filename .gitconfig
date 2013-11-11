@@ -7,6 +7,7 @@
 	st = status
 	br = branch
 	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+	today = log --since=midnight --author=\"Michael Sauter\" --oneline
 [core]
 	excludesfile = ~/.gitignore
 [credential]

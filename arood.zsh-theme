@@ -15,7 +15,7 @@ prompt_git() {
 
 function precmd() {
 	print -rP '
-$fg[cyan]%D{%H:%M:%S} $fg[yellow]%c $(prompt_git)'
+$fg[cyan]%D{%H:%M} $fg[yellow]%c $(prompt_git)'
 }
 
 PROMPT='%{$reset_color%}%{$reset_color%}→ '

@@ -13,3 +13,9 @@ These are the dotfiles I use.
 
 * Theme goes best with http://ethanschoonover.com/solarized theme and http://www.levien.com/type/myfonts/inconsolata.html font.
 * Adjust `.gitconfig`
+
+## Thanks
+
+* https://github.com/spicycode/ze-best-zsh-config
+* http://zanshin.net/2013/02/02/zsh-configuration-from-the-ground-up/
+* http://marcusolovsson.com/my-command-prompt

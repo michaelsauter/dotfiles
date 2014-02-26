@@ -15,7 +15,6 @@ ZSH_THEME_GIT_PROMPT_DIRTY="*"              # Text to display if the branch is d
 ZSH_THEME_GIT_PROMPT_CLEAN=""               # Text to display if the branch is clean
 
 # Theme
-# Adapted from: http://marcusolovsson.com/my-command-prompt
 prompt_git() {
   local ref dirty
     if $(git rev-parse --is-inside-work-tree >/dev/null 2>&1); then

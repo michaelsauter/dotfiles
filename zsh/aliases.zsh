@@ -1,2 +1,2 @@
 # Aliases
-alias l='ls -la'
+alias l='ls -lah'

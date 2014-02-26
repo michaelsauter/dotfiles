@@ -1,0 +1,20 @@
+# Hack to get location of the dotfiles folder
+SYMLINK_LOCATION=`readlink ~/.zshrc`
+DOTFILES_ROOT=`dirname $SYMLINK_LOCATION`
+DOTFILES_ROOT="$DOTFILES_ROOT/../"
+
+# Determine which topics to load
+if [ -e $DOTFILES_ROOT/topics/custom ]; then
+  TOPICS_FILE=$DOTFILES_ROOT/topics/custom
+else
+  TOPICS_FILE=$DOTFILES_ROOT/topics/full
+fi
+
+# Load .zsh files
+while read topic; do
+	for file in $DOTFILES_ROOT/$topic/*; do
+		if [[ "$file" = *\.zsh ]]; then
+	  	source $file
+	  fi
+	done
+done < $TOPICS_FILE

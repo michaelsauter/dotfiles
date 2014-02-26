@@ -1,0 +1,12 @@
+# Mac
+.DS_Store
+.AppleDouble
+
+# Windows
+Thumbs.db
+
+# Editors
+.idea
+*.tmproj
+*.sublime-workspace
+*.sublime-project

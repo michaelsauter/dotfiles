@@ -8,7 +8,7 @@ link_files () {
 }
 
 # Create backup directory if doesn't exist
-if [ ! -e $target ]; then
+if [ ! -e $HOME/.dotfiles-backup ]; then
   mkdir $HOME/.dotfiles-backup
 fi
 

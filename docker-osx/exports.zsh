@@ -1,1 +1,0 @@
-export DOCKER_HOST="172.16.42.43:4243"
